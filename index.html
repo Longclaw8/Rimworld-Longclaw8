@@ -243,6 +243,23 @@
 
             eventList = new List('events', options, eventData);
         });
+	    
+        let racesList = null;
+        $.getJSON(racesListURL, function(data) {
+            var options = {
+                valueNames: ['abr', 'price', 'karmatype'],
+                item: '<tr><td class="abr" scope="row"></td><td class="price"></td><td class="karmatype"></td></tr>'
+            };
+
+            var eventData = [];
+            $.each(data.incitems, function(index, value) {
+                if (value["price"] > 0) {
+                    racesData.push(value);
+                }
+            });
+
+            racesList = new List('races', options, eventData);
+        });
 
         $("#item-price-min").keyup(function() {
             updateItemFilter();
