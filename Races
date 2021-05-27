@@ -1,0 +1,50 @@
+{
+	"incitems" : [
+	{
+		"abr": "human",
+		"price": 2500,
+		"karmatype": "Neutral"
+	},
+	{
+		"abr": "ewok",
+		"price": 1500,
+		"karmatype": "Neutral"
+	},
+	{
+		"abr": "hutt",
+		"price": 7500,
+		"karmatype": "Neutral"
+	},
+	{
+		"abr": "rodian",
+		"price": 2500,
+		"karmatype": "Neutral"
+	},
+	{
+		"abr": "togruta",
+		"price": 2500,
+		"karmatype": "Good"
+	},
+	{
+		"abr": "trandosha",
+		"price": 2500,
+		"karmatype": "Good"
+	},
+	{
+		"abr": "twilek",
+		"price": 2500,
+		"karmatype": "Neutral"
+	},
+	{
+		"abr": "wookiiee",
+		"price": 2500,
+		"karmatype": "Neutral"
+	},	
+  {
+		"abr": "zabrak",
+		"price": 2500,
+		"karmatype": "Neutral"
+	},
+	],
+	"total": 9
+}
